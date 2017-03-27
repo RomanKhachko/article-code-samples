@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://example.com/root.json",
+  "properties": {
+    "userID": {
+      "id": "http://example.com/root.json/userID",
+      "type": "null"
+    },
+    "userName": {
+      "id": "http://example.com/root.json/userName",
+      "type": "string"
+    },
+    "userRole": {
+      "id": "http://example.com/root.json/userRole",
+      "type": "string"
+    },
+    "userStatus": {
+      "id": "http://example.com/root.json/userStatus",
+      "type": "null"
+    }
+  },
+  "required": [
+    "userName",
+    "userID",
+    "userRole",
+    "userStatus"
+  ],
+  "type": "object"
+}
