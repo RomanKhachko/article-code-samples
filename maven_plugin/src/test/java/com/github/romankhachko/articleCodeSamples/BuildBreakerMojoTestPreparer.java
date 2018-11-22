@@ -21,9 +21,6 @@ public class BuildBreakerMojoTestPreparer {
     @Before
     public void setUp() {
         MavenProject project = mock(MavenProject.class);
-        Properties props = mock(Properties.class);
-        when(props.getProperty(anyString())).thenReturn(EMPTY);
-        when(project.getProperties()).thenReturn(mock(Properties.class));
         when(project.getArtifactId()).thenReturn(EMPTY);
         when(project.getGroupId()).thenReturn(EMPTY);
 
