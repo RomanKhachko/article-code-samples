@@ -68,18 +68,5 @@
 
     </dependencies>
 
-    <distributionManagement>
-        <repository>
-            <id>artifactory</id>
-            <name>Artifactory Releases</name>
-            <url>https://artifacts.mastercard.int/artifactory/releases</url>
-        </repository>
-        <snapshotRepository>
-            <id>artifactory-snapshots</id>
-            <name>Artifactory Snapshots</name>
-            <url>https://artifacts.mastercard.int/artifactory/snapshots</url>
-        </snapshotRepository>
-    </distributionManagement>
-
 
 </project>
